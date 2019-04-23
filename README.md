@@ -65,10 +65,6 @@ Original control pad GUI.
 Control pad GUI after redesign.  
 ![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/control_pad_after.PNG?raw=true)
 
-## Code Overview
-Explain basic breakdown of code, which files do what.
-Explain how to get started with programming in the Arduino IDE.
-
 ## Usage
 YouTube demo video showing the usage of the pushbutton panel and phone application.
 [![Watch the video](https://img.youtube.com/vi/hk7W9WY6B-A/hqdefault.jpg)](https://www.youtube.com/watch?v=hk7W9WY6B-A)
