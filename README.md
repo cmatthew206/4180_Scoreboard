@@ -49,10 +49,10 @@ These pushbuttons are responsible for
   6. Reset game (right middle)  
   
 The game can only be reset when it is paused.
-![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/pushbutton_panel.PNG?raw=true)
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/pushbutton_panel.PNG?raw=true)
 
 A perma-proto board was used to solder the ground connections for the buttons together.  A split ethernet cable was hooked up to each of the six pushbuttons and the common ground.  This cable is then split again at the other end for connections on the pcb.
-![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/pushbutton_panel_open.PNG?raw=true)
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/pushbutton_panel_open.PNG?raw=true)
 
 ## Phone Application
 The phone application used in the project demo is a modified version of the Adafruit Bluetooth Connect App for [Android](https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect&hl=en_US) and [iOS](https://itunes.apple.com/us/app/adafruit-bluefruit-le-connect/id830125974?mt=8).    
