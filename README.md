@@ -59,7 +59,7 @@ The phone application used in the project demo is a modified version of the Adaf
 
 The [source code](https://github.com/adafruit/Bluefruit_LE_Connect_Android) for the Android application was modified to gut unnecessary functionality and redesign the control pad GUI to more closely resemble the pushbutton panel.
 Control pad before and after redesign.
-![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/control_pad_before.PNG?raw=true) ![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/control_pad_after.PNG?raw=true)
+ ![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/control_pad_after.PNG?raw=true)
 
 ## Code Overview
 Explain basic breakdown of code, which files do what.
