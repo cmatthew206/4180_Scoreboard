@@ -58,7 +58,7 @@ A perma-proto board was used to solder the ground connections for the buttons to
 The phone application used in the project demo is a modified version of the Adafruit Bluetooth Connect App for [Android](https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect&hl=en_US) and [iOS](https://itunes.apple.com/us/app/adafruit-bluefruit-le-connect/id830125974?mt=8).    
 
 The [source code](https://github.com/adafruit/Bluefruit_LE_Connect_Android) for the Android application was modified to gut unnecessary functionality and redesign the control pad GUI to more closely resemble the pushbutton panel.
-Control pad before and after.
+Control pad before and after redesign.
 ![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/control_pad_before.PNG?raw=true) ![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/control_pad_after.PNG?raw=true)
 
 ## Code Overview
