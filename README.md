@@ -52,7 +52,7 @@ The game can only be reset when it is paused.
 ![Image](https://github.com/alankittel3/scoreboard/blob/master/pushbutton_panel.PNG?raw=true)
 
 A perma-proto board was used to solder the ground connections for the buttons together.  A split ethernet cable was hooked up to each of the six pushbuttons and the common ground.  This cable is then split again at the other end for connections on the pcb.
-![Image](https://github.com/alankittel3/scoreboard/blob/master/pushbutton_panel_open.PNG?raw=true)
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/pushbutton_panel_open.PNG?raw=true)
 
 ## Code Overview
 Explain basic breakdown of code, which files do what.
@@ -60,6 +60,6 @@ Explain how to get started with programming in the Arduino IDE.
 
 ## Usage
 Demo video showing the usage of the pushbutton panel and phone application.
-![](https://github.com/alankittel3/4180_Scoreboard/blob/master/demo.mp4?)
+![Video](https://github.com/alankittel3/4180_Scoreboard/blob/master/demo.mp4?)
 
 The functionality of the pushbutton panel is replicated via phone commands over a BLE connection.  See the repo [here](https://www.sparkfun.com/products/14492) for a slightly different version of the Android application used in this project.
