@@ -34,7 +34,7 @@ The Arduino IDE is used for programming the Arduino Mega.  See the download page
 Full system pinout, complete with the Arduino Mega board, speaker & amplifier, BLE module, pushbuttons, temperature probe, voltage regulator, and power jack.
 ![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/pcb_pinout.png?raw=true)
 
-A custom made pcb hat was used to help reduce the housing size.  The BLE module, speaker, amplifier, and voltage regulator are directly soldered onto the pcb.  The connections for the LED panel and temperature probe are also soldered onto the pcb.  The pcb is mounted onto the Arduino Mega.
+A custom made pcb hat was used to help reduce the housing size.  The BLE module and amplifier are directly soldered onto the pcb.  The connections for the LED panel and temperature probe are also soldered onto the pcb.  The pcb is mounted onto the Arduino Mega.
 ![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/pcb.png?raw=true)
 ![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/pcb_physical.PNG?raw=true)
 
@@ -54,12 +54,15 @@ The game can only be reset when it is paused.
 A perma-proto board was used to solder the ground connections for the buttons together.  A split ethernet cable was hooked up to each of the six pushbuttons and the common ground.  This cable is then split again at the other end for connections on the pcb.
 ![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/pushbutton_panel_open.PNG?raw=true)
 
+## Phone Application
+The phone application used in the project demo is a modified version of the Adafruit Bluetooth Connect App for [Android](https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect&hl=en_US) and [iOS](https://itunes.apple.com/us/app/adafruit-bluefruit-le-connect/id830125974?mt=8).  
+
 ## Code Overview
 Explain basic breakdown of code, which files do what.
 Explain how to get started with programming in the Arduino IDE.
 
 ## Usage
-Demo video showing the usage of the pushbutton panel and phone application.
+YouTube demo video showing the usage of the pushbutton panel and phone application.
 [![Watch the video](https://img.youtube.com/vi/hk7W9WY6B-A/hqdefault.jpg)](https://www.youtube.com/watch?v=hk7W9WY6B-A)
 
-The functionality of the pushbutton panel is replicated via phone commands over a BLE connection.  See the repo [here](https://www.sparkfun.com/products/14492) for a slightly different version of the Android application used in this project.
+The functionality of the pushbutton panel is replicated via phone commands over a BLE connection.
