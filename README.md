@@ -32,11 +32,11 @@ The Arduino IDE is used for programming the Arduino Mega.  See the download page
 
 ## Setup
 Full system pinout, complete with the Arduino Mega board, speaker & amplifier, BLE module, pushbuttons, temperature probe, voltage regulator, and power jack.
-![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/pcb_pinout.png?raw=true)
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/pcb_pinout.png?raw=true)
 
 A custom made pcb hat was used to help reduce the housing size.  The BLE module and amplifier are directly soldered onto the pcb.  The connections for the LED panel and temperature probe are also soldered onto the pcb.  The pcb is mounted onto the Arduino Mega.
-![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/pcb.png?raw=true)
-![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/pcb_physical.PNG?raw=true)
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/pcb.png?raw=true)
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/pcb_physical.PNG?raw=true)
 
 Six holes were drilled into the outdoor project box to mount 6 pushbuttons.  
 The speaker emits a short beep sound when any button is pressed.    
