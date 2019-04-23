@@ -60,6 +60,6 @@ Explain how to get started with programming in the Arduino IDE.
 
 ## Usage
 Demo video showing the usage of the pushbutton panel and phone application.
-![Video](https://github.com/alankittel3/4180_Scoreboard/blob/master/demo.mp4?)
+![Video](https://github.com/alankittel3/4180_Scoreboard/blob/master/Demo.mp4)
 
 The functionality of the pushbutton panel is replicated via phone commands over a BLE connection.  See the repo [here](https://www.sparkfun.com/products/14492) for a slightly different version of the Android application used in this project.
