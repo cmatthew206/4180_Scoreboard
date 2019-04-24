@@ -66,6 +66,7 @@ Control pad GUI after redesign.
 ![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/control_pad_after.PNG?raw=true)
 
 ## Usage
+
 YouTube demo video showing the usage of the pushbutton panel and phone application.
 [![Watch the video](https://img.youtube.com/vi/hk7W9WY6B-A/hqdefault.jpg)](https://www.youtube.com/watch?v=hk7W9WY6B-A)
 
