@@ -32,11 +32,11 @@ The Arduino IDE is used for programming the Arduino Mega.  See the download page
 
 ## Setup
 Full system pinout, complete with the Arduino Mega board, speaker & amplifier, BLE module, pushbuttons, temperature probe, voltage regulator, and power jack.
-![Image](https://github.com/alankittel3/scoreboard/blob/master/pcb_pinout.png?raw=true)
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/pcb_pinout.png?raw=true)
 
-A custom made pcb hat was used to help reduce the housing size.  The BLE module, speaker, amplifier, and voltage regulator are directly soldered onto the pcb.  The connections for the LED panel and temperature probe are also soldered onto the pcb.  The pcb is mounted onto the Arduino Mega.
-![Image](https://github.com/alankittel3/scoreboard/blob/master/pcb.png?raw=true)
-![Image](https://github.com/alankittel3/scoreboard/blob/master/pcb_physical.PNG?raw=true)
+A custom made pcb hat was used to help reduce the housing size.  The BLE module and amplifier are directly soldered onto the pcb.  The connections for the LED panel and temperature probe are also soldered onto the pcb.  The pcb is mounted onto the Arduino Mega.
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/pcb.png?raw=true)
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/pcb_physical.PNG?raw=true)
 
 Six holes were drilled into the outdoor project box to mount 6 pushbuttons.  
 The speaker emits a short beep sound when any button is pressed.    
@@ -49,17 +49,25 @@ These pushbuttons are responsible for
   6. Reset game (right middle)  
   
 The game can only be reset when it is paused.
-![Image](https://github.com/alankittel3/scoreboard/blob/master/pushbutton_panel.PNG?raw=true)
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/pushbutton_panel.PNG?raw=true)
 
 A perma-proto board was used to solder the ground connections for the buttons together.  A split ethernet cable was hooked up to each of the six pushbuttons and the common ground.  This cable is then split again at the other end for connections on the pcb.
-![Image](https://github.com/alankittel3/scoreboard/blob/master/pushbutton_panel_open.PNG?raw=true)
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/pushbutton_panel_open.PNG?raw=true)
 
-## Code Overview
-Explain basic breakdown of code, which files do what.
-Explain how to get started with programming in the Arduino IDE.
+## Phone Application
+The phone application used in the project demo is a modified version of the Adafruit Bluetooth Connect App for [Android](https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect&hl=en_US) and [iOS](https://itunes.apple.com/us/app/adafruit-bluefruit-le-connect/id830125974?mt=8).    
+
+The original source code for the Android application [found here](https://github.com/adafruit/Bluefruit_LE_Connect_Android) was modified to gut unnecessary functionality and redesign the control pad GUI to more closely resemble the pushbutton panel.  The modified source code can be found [here](https://github.com/lnativio3/Scoreboard_Connect_Android).
+
+Original control pad GUI.  
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/control_pad_beforev2.PNG?raw=true)  
+
+Control pad GUI after redesign.  
+![Image](https://github.com/alankittel3/4180_Scoreboard/blob/master/images/control_pad_after.PNG?raw=true)
 
 ## Usage
-Demo video showing the usage of the pushbutton panel and phone application.
-[Demo Video](https://youtu.be/IhNKtWCFYII)
 
-The functionality of the pushbutton panel is replicated via phone commands over a BLE connection.  See the repo [here](https://www.sparkfun.com/products/14492) for a slightly different version of the Android application used in this project.
+YouTube demo video showing the usage of the pushbutton panel and phone application.
+[![Watch the video](https://img.youtube.com/vi/hk7W9WY6B-A/hqdefault.jpg)](https://www.youtube.com/watch?v=hk7W9WY6B-A)
+
+The functionality of the pushbutton panel is replicated via phone commands over a BLE connection.
